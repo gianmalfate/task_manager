@@ -42,6 +42,7 @@ Caso ainda não tenha o Anaconda, instale-o através do link oficial:
 [Instalação do Anaconda](https://www.anaconda.com/download)
 
 2. Crie um Ambiente no Anaconda
+
 Abra o terminal ou prompt e execute:
 ```python
 conda create -n meu_ambiente_django python=3.8
@@ -49,15 +50,18 @@ conda activate meu_ambiente_django
 ```
 
 3. Instale as Dependências
+
 Com o ambiente ativado, instale o Django e outras dependências necessárias:
 ```python
 pip install django
 ```
 
 4. Extraia o Projeto
+
 Descompacte o arquivo fornecido (dia_organizado.zip) em uma pasta de sua escolha.
 
 5. Realize as Migrações
+
 Na pasta raiz do projeto, rode os seguintes comandos:
 ```python
 python manage.py makemigrations
@@ -65,7 +69,8 @@ python manage.py migrate
 ```
 
 6. Inicie o Servidor de Desenvolvimento
-Para iniciar o servidor localmente, utilize o comando:
+
+ara iniciar o servidor localmente, utilize o comando:
 ```python
 python manage.py runserver
 ```
@@ -110,4 +115,4 @@ DIA_ORGANIZADO/
 ```
 
 ## 📞 Contato
-Caso tenha dúvidas ou sugestões, entre em contato pelo e-mail: [gianmalfate@gmail.com]
+Caso tenha dúvidas ou sugestões, entre em contato pelo e-mail: gianmalfate@gmail.com
