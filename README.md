@@ -70,7 +70,7 @@ python manage.py migrate
 
 6. Inicie o Servidor de Desenvolvimento
 
-ara iniciar o servidor localmente, utilize o comando:
+Para iniciar o servidor localmente, utilize o comando:
 ```python
 python manage.py runserver
 ```
